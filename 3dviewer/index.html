@@ -22,6 +22,7 @@
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">3DViewer</div>
       </div>
+	  <div style="border:solid 1px black; width:200px; height:30px; margin:auto; text-align:center" onclick="unityInstance.SendMessage('WebHook', 'LoadModel', 'duck')"> DUCK </div>
     </div>
     <script>
       var container = document.querySelector("#unity-container");
