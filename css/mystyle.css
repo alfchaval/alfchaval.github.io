@@ -15,6 +15,24 @@ img {
 	border:1px solid black;
 }
 
+table {
+	border-collapse: collapse;
+	margin: 1em 0;
+	width: 100%;
+	max-width: 600px;
+}
+th, td {
+	border: 1px solid #444;
+	padding: 8px 12px;
+	text-align: center;
+}
+th {
+	background: #303030;
+}
+caption {
+	margin-bottom: .5em;
+}
+
 .block {
 	margin: 10px;
 }
